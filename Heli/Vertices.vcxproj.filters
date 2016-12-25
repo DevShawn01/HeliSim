@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="draw_3D_graphics.cpp" />
+    <ClCompile Include="graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ran1.cpp">
+      <Filter>Ran</Filter>
+    </ClCompile>
+    <ClCompile Include="rotation.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Heli.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libnoise.lib" />
+    <Library Include="Vertices.lib">
+      <Filter>Graphics</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Noise">
+      <UniqueIdentifier>{e9944fd9-2750-4102-9edf-6744ad3060db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{e1c0653c-9506-4a45-bdc5-ed32afcc0056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ran">
+      <UniqueIdentifier>{3eee15a5-5ba1-4f27-a222-ac4d0b776917}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="noise\basictypes.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\exception.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\interp.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\latlon.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\mathconsts.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\misc.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\model\cylinder.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\model\line.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\model\model.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\model\plane.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\model\sphere.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\abs.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\add.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\billow.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\blend.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\cache.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\checkerboard.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\clamp.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\const.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\curve.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\cylinders.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\displace.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\exponent.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\invert.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\max.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\min.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\module.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\modulebase.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\multiply.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\perlin.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\power.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\ridgedmulti.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\rotatepoint.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\scalebias.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\scalepoint.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\select.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\spheres.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\terrace.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\translatepoint.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\turbulence.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\module\voronoi.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\noise.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\noisegen.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="noise\vectortable.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ran.h">
+      <Filter>Ran</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Heli.h" />
+  </ItemGroup>
+</Project>
